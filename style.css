@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+
+  --cor01: #457B9D;
+  --cor02: #A8DADC;
+  --cor03: #F1FAEE;
+  --cor04: #134074;
+  --cor05: #134074;
+  --cor06: #0B2545;
+  --cor07: #8DA9C4;
+  --cor07: #EEF4ED;
+
+  --Fprincipal: 'Montserrat', sans-serif;
+  --Fdestaque: 'Aboreto', cursive;
+  --FTitulo: 'Josefin Sans', sans-serif;
+
+}
+
+body{
+  background-image: url(/Img/foto-01-gabriela-almeida-materia-04.webp);
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+.Introducao{
+  color: #3B64DB;
+  background-color: var(--cor01);
+  padding: 15px;
+
+}
+
+.Introducao_Titulo{
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  font-size: 35px;
+  font-family: var(--FTitulo);
+  color: white;
+
+
+}
+
+.Introducao_SubTitulo{
+  margin-top: 25px;
+  color: yellow;
+  text-align: center;
+  font-size: 40px;
+}
+
+main{
+  min-width: 200px;
+  max-width: 1000px;
+  background-color: whitesmoke;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.492);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.Topico{
+  font-family: var(--Fprincipal);
+  margin-bottom: 8px;
+  color: var(--cor07);
+  background-image: linear-gradient(to right, var(--cor05), var(--cor01), transparent);
+  padding: 4px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.Explicacao_Texto{
+  margin-right: 20px;
+}
+.Explicacao{
+  margin: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Texto{
+  color: black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 8px;
+  
+}
+
+.Lista{
+  margin-left: 10px;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.Lista > li{
+  list-style-position: inside;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+.Conteudo{
+  margin-top: 10px;
+
+}
+
+.Imagem{
+  display: flexbox;
+  width: 500px;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Imagem > img{
+  margin-top: 10px;
+  width: 500px;
+}
+
+img{
+  display: inline;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#img1 {
+  display: inline-block;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.SubTopico{
+  margin-top: 15px;
+  font-family: var(--Fprincipal);
+  margin-bottom: 8px;
+  color: var(--cor06);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+footer {
+    font-family: var(--FTitulo);
+    background-color: var(--cor01);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    color: var(--cor07);
+    padding: 5px;
+}
